@@ -22,6 +22,6 @@ services:
     environment:
       INFLUXDB_HOST: 'influxdb:8086'
       INFLUXDB_TOKEN: 'admin:admin'
-      CLASH_HOST: '192.168.65.2:9090'
-      CLASH_TOKEN: ''
+      CLASH_HOST: '192.168.1.5:9090'
+      CLASH_TOKEN: '123456'
     container_name: scraper
